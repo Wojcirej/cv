@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wojciech Bal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 11pt; line-height: 1.6; color: #333;">
+
+  <div class="grid min-h-screen" style="grid-template-columns: 315px 1fr;">
+
+    <!-- ==================== SIDEBAR ==================== -->
+    <aside class="bg-[#1e3a52] text-white py-[40px] px-[30px]">
+
+      <!-- Profile Photo -->
+      <div class="w-[180px] h-[180px] rounded-full overflow-hidden border-8 border-white mx-auto mb-[40px] bg-white">
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4D03AQHOgP8vB1ywxw/profile-displayphoto-scale_400_400/B4DZ4q1BQ1I0Ag-/0/1778835003620?e=1786579200&v=beta&t=FJZOd_5tJAwLs9L3qa3d_tuUPj9eb_0ozmVjKukrjUo"
+          alt="Wojciech Bal"
+          class="w-full h-full object-cover"
+        />
+      </div>
+
+      <!-- Contact -->
+      <section class="mb-[40px]">
+        <h2 class="text-[14pt] font-bold uppercase tracking-[1.5px] mb-[20px] pb-[10px] border-b-2 border-white/30">
+          Contact
+        </h2>
+
+        <!-- <div class="flex items-start mb-[15px] text-[10pt]">
+          <svg class="shrink-0 mt-[2px] mr-3" width="16" height="16" viewBox="0 0 24 24" fill="#e17055">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+          <span>phone number</span>
+        </div> -->
+
+        <div class="flex items-start mb-[15px] text-[10pt]">
+          <svg class="shrink-0 mt-[2px] mr-3" width="16" height="16" viewBox="0 0 24 24" fill="#a29bfe">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          <a href="mailto:wojciech.bal@epoczta.pl" class="text-white hover:underline break-all">wojciech.bal@epoczta.pl</a>
+        </div>
+
+        <div class="flex items-start mb-[15px] text-[10pt]">
+          <svg class="shrink-0 mt-[2px] mr-3" width="16" height="16" viewBox="0 0 24 24" fill="#fd79a8">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          <span>Bydgoszcz, Poland</span>
+        </div>
+
+        <!-- <div class="flex items-start mb-[15px] text-[10pt]">
+          <svg class="shrink-0 mt-[2px] mr-3" width="16" height="16" viewBox="0 0 24 24" fill="#74b9ff">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+          </svg>
+          <a href="website" class="text-white hover:underline" target="_blank" rel="noopener noreferrer">website</a>
+        </div> -->
+      </section>
+
+      <!-- Education -->
+      <section class="mb-[40px]">
+        <h2 class="text-[14pt] font-bold uppercase tracking-[1.5px] mb-[20px] pb-[10px] border-b-2 border-white/30">
+          Education
+        </h2>
+
+        <div class="mb-[25px]">
+          <div class="text-[10pt] mb-2 opacity-90">2015 - 2020</div>
+          <h3 class="text-[11pt] font-semibold mb-[5px]">Politechnika Rzeszowska im. Ignacego Łukasiewicza</h3>
+          <ul class="mt-[5px] pl-[18px] text-[10pt]">
+            <li class="mt-[3px]">Master's of Computer Science</li>
+          </ul>
+        </div>
+
+        <div class="mb-[25px]">
+          <div class="text-[10pt] mb-2 opacity-90">2011 - 2015</div>
+          <h3 class="text-[11pt] font-semibold mb-[5px]">Politechnika Rzeszowska im. Ignacego Łukasiewicza</h3>
+          <ul class="mt-[5px] pl-[18px] text-[10pt]">
+            <li class="mt-[3px]">Bachelor's of Computer Science</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Languages -->
+      <section class="mb-[40px]">
+        <h2 class="text-[14pt] font-bold uppercase tracking-[1.5px] mb-[20px] pb-[10px] border-b-2 border-white/30">
+          Languages
+        </h2>
+        <ul>
+          <li class="skill-item">Polish (Native speaker)</li>
+          <li class="skill-item">English (Fluent)</li>
+        </ul>
+      </section>
+
+      <!-- Skills -->
+      <section class="mb-[40px]">
+        <h2 class="text-[14pt] font-bold uppercase tracking-[1.5px] mb-[20px] pb-[10px] border-b-2 border-white/30">
+          Skills
+        </h2>
+        <ul>
+          <li class="skill-item">Ruby</li>
+          <li class="skill-item">Ruby on Rails</li>
+          <li class="skill-item">Elixir</li>
+          <li class="skill-item">Phoenix</li>
+          <li class="skill-item">JavaScript</li>
+          <li class="skill-item">NodeJS</li>
+          <li class="skill-item">ExpressJS</li>
+          <li class="skill-item">AngularJS</li>
+          <li class="skill-item">Sidekiq</li>
+          <li class="skill-item">HTML / CSS</li>
+          <li class="skill-item">Bootstrap</li>
+          <li class="skill-item">PostgreSQL</li>
+          <li class="skill-item">MySQL</li>
+          <li class="skill-item">MariaDB</li>
+          <li class="skill-item">Redis</li>
+          <li class="skill-item">Memcached</li>
+          <li class="skill-item">DynamoDB</li>
+          <li class="skill-item">RSpec</li>
+          <li class="skill-item">Minitest</li>
+          <li class="skill-item">Capybara</li>
+          <li class="skill-item">Selenium</li>
+          <li class="skill-item">Cypress</li>
+          <li class="skill-item">Jest</li>
+          <li class="skill-item">Jasmine</li>
+          <li class="skill-item">Mocha</li>
+          <li class="skill-item">AWS Localstack</li>
+          <li class="skill-item">Page Object Pattern</li>
+          <li class="skill-item">Docker</li>
+          <li class="skill-item">Docker Compose</li>
+          <li class="skill-item">GitHub Actions</li>
+          <li class="skill-item">Helm Charts</li>
+          <li class="skill-item">Kubectl</li>
+          <li class="skill-item">Azure DevOps</li>
+          <li class="skill-item">SemaphoreCI</li>
+          <li class="skill-item">AWS S3</li>
+          <li class="skill-item">AWS SNS / SQS</li>
+          <li class="skill-item">AWS EC2</li>
+          <li class="skill-item">AWS Lambda</li>
+          <li class="skill-item">AWS ECS</li>
+          <li class="skill-item">AWS CLI</li>
+          <li class="skill-item">Google Cloud Storage</li>
+          <li class="skill-item">Google Cloud PubSub</li>
+          <li class="skill-item">Google Cloud CLI</li>
+          <li class="skill-item">Heroku</li>
+          <li class="skill-item">Swagger</li>
+          <li class="skill-item">Structurizr</li>
+          <li class="skill-item">Mermaid</li>
+          <li class="skill-item">Backstage</li>
+          <li class="skill-item">Architecture Decision Records</li>
+          <li class="skill-item">Confluence</li>
+          <li class="skill-item">Markdown</li>
+          <li class="skill-item">SOLID</li>
+          <li class="skill-item">RESTful</li>
+          <li class="skill-item">DDD</li>
+          <li class="skill-item">CQRS</li>
+          <li class="skill-item">Feature Flags</li>
+          <li class="skill-item">Backward Compatibility</li>
+        </ul>
+      </section>
+
+    </aside>
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main class="bg-[#f5f2ed] py-[60px] px-[50px]">
+
+      <!-- Name & Title -->
+      <div class="mb-[40px]">
+        <h1 class="text-[42pt] font-bold mb-[10px] text-[#2c2c2c] tracking-[0.5px]">
+          Wojciech <span class="font-normal">Bal</span>
+        </h1>
+        <div class="text-[18pt] text-[#666] uppercase tracking-[2px] pb-[15px] border-b-[3px] border-[#1e3a52] inline-block">
+          Senior Software Engineer
+        </div>
+      </div>
+
+      <!-- Profile -->
+      <section class="mb-8">
+        <h2 class="text-[16pt] font-bold uppercase tracking-[1.5px] mb-[25px] pb-[10px] border-b-2 border-[#1e3a52] text-[#1e3a52]">
+          Profile
+        </h2>
+        <p class="text-justify leading-[1.8] text-[#4a4a4a]">
+          Senior Software Engineer with 9+ years of experience participating in many software development projects from various industries all around the world, such as travelling, facility services, recycling and online gaming.
+          Cooperated with startups, small and medium-sized companies, and large corporations from several countries, mostly United States and Great Britain, but also Germany or Switzerland.
+          Experienced in building web applications, APIs, deployment pipelinesand cloud infrastructure.
+          Skilled in a wide range of technologies including Ruby, NodeJS, Javascript and Elixir and cloud platforms like AWS, GCP and Azure.
+          Not shy of participating also in other SDLC processes such as planning, prioritizing, testing and deploying with use of the best CI/CD practices.
+          Product-minded engineer who ships fast and prioritizes user feedback.
+        </p>
+      </section>
+
+      <!-- Work Experience -->
+      <section class="mb-8">
+        <h2 class="text-[16pt] font-bold uppercase tracking-[1.5px] mb-[25px] pb-[10px] border-b-2 border-[#1e3a52] text-[#1e3a52]">
+          Work Experience
+        </h2>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">PGS Software/Xebia</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">2017 - PRESENT</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Additionally, held various roles within the company:</div>
+          <p class="text-[#4a4a4a]">
+          </p>
+          <ul class="mt-[10px] pl-5 text-[#4a4a4a]">
+            <li class="mt-[6px] text-justify">NodeJS Mentor (November 2024 - present)</li>
+            <li class="mt-[6px] text-justify">Ruby Technical Recruiter (May 2018 - present)</li>
+            <li class="mt-[6px] text-justify">NodeJS Technical Recruiter (August 2024 - May 2026)</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <!-- Projects -->
+      <section class="mb-8">
+        <h2 class="text-[16pt] font-bold uppercase tracking-[1.5px] mb-[25px] pb-[10px] border-b-2 border-[#1e3a52] text-[#1e3a52]">
+          Projects
+        </h2>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Web application for Free Poker Online gaming</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">02.2025 - 06.2026</span>
+          </div>
+          <p class="text-[#4a4a4a]">
+            <strong>Project within Xebia Poland</strong><br/>
+            Maintenance and support of Backend services built in microservices architecture -
+            increase of automated tests coverage by 25%,
+            finishing Frontend technological migration from BackboneJs to NextJS by providing missing RESTful API endpoints,
+            preparation of automated local environment setup of the whole ecosystem of 12 applications and 8 external services built in Ruby, Elixir and JavaScript by utilizing Docker & Docker Compose tools.
+            Preparation of C4 diagrams with Structurizr, which have been published automatically on the Backstage portal.
+            Support of the SRE team in migration from Google Cloud to AWS Service by plan and execution to switch application logic to use AWS S3 instead of Google Cloud Storage,
+            AWS SNS/SQS services instead of Google PubSub.
+            In addition to this, full migration of cache from Memcached service to Redis cache within Rails application.
+            Maintenance of existing Helm Charts.
+            Writing and exploring existing use cases with AI assistance by Using Claude Sonnet 4.6 model within Github Copilot subscription,
+            so as preparing Mermaid diagrams to illustrate application flow.
+          </p>
+          <ul class="mt-[10px] pl-5 text-[#4a4a4a]">
+            <li class="mt-[6px] text-justify"><strong>Languages & Frameworks:</strong> Ruby, Ruby on Rails, Elixir, Phoenix</li>
+            <li class="mt-[6px] text-justify"><strong>Storage:</strong> MySQL, PostgreSQL, Memcached, Redis</li>
+            <li class="mt-[6px] text-justify"><strong>Testing:</strong> RSpec, AWS Localstack, Ministack</li>
+            <li class="mt-[6px] text-justify"><strong>Deployment & DevOps:</strong> Docker, Docker Compose, Github Actions, Helm Charts, Kubectl</li>
+            <li class="mt-[6px] text-justify"><strong>Cloud:</strong> Google Cloud Storage, Google Cloud PubSub, Google Cloud CLI, AWS CLI, AWS S3, AWS SNS, AWS SQS</li>
+            <li class="mt-[6px] text-justify"><strong>Documentation:</strong> Swagger, Structurizr, Mermaid, Backstage, Markdown</li>
+            <li class="mt-[6px] text-justify"><strong>Software Development Principles:</strong> SOLID, RESTful, Feature Flags, Backward compatibility</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">World's leading travel management company</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">03.2024</span>
+          </div>
+          <p class="text-[#4a4a4a]">
+            <strong>Project within Xebia Poland</strong><br/>
+            Migration of legacy CI/CD pipelines from Github Actions to Atlassian Bitbucket Pipelines for Ruby and NodeJS applications hosted on Heroku.
+            Preparation of appropriate documentation how to launch manually the pipelines.
+            Improvements of the pipelines performance by introducing caching and parallelization of the jobs.
+            Preparing custom buildpack for Heroku to support setting the ssh private key as part of the application build process and ensure that private dependencies are possible to be installed.
+          </p>
+          <ul class="mt-[10px] pl-5 text-[#4a4a4a]">
+            <li class="mt-[6px] text-justify"><strong>Languages & Frameworks:</strong> Ruby, NodeJS</li>
+            <li class="mt-[6px] text-justify"><strong>Storage:</strong> PostgreSQL, Redis</li>
+            <li class="mt-[6px] text-justify"><strong>Testing:</strong> RSpec, Mocha</li>
+            <li class="mt-[6px] text-justify"><strong>Devops & Infrastructure:</strong> Heroku, Heroku CLI, Github Actions, Bitbucket Pipelines</li>
+            <li class="mt-[6px] text-justify"><strong>Documentation:</strong> Confluence</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Web application supporting management of North America's Largest Processors of Catalytic Converters</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">11.2022 - 02.2025</span>
+          </div>
+          <p class="text-[#4a4a4a]">
+            <strong>Project within Xebia Poland</strong><br/>
+            Maintenance and support of Ruby application - increase of automated tests coverage from 3000 test cases to 11400,
+            finishing frontend technological migration from Angular.js to React by providing missing REST API endpoints,
+            participation in defining standards & architecture for the application,
+            along with documentation defining those standards by introducing Architecture Decision Records and software patterns like CQRS and Domain Driven Design.
+            Containerization and automation of deployment process, alongside Github Actions workflows extensions.
+            Infrastructure setup for Cypress e2e testing framework.
+          </p>
+          <ul class="mt-[10px] pl-5 text-[#4a4a4a]">
+            <li class="mt-[6px] text-justify"><strong>Languages & Frameworks:</strong> Ruby, Ruby on Rails, Sidekiq, HTML, CSS, AngularJS, NodeJS</li>
+            <li class="mt-[6px] text-justify"><strong>Storage:</strong> PostgreSQL, Redis</li>
+            <li class="mt-[6px] text-justify"><strong>Testing:</strong> RSpec, Cypress, Page Object Pattern</li>
+            <li class="mt-[6px] text-justify"><strong>Deployment & DevOps:</strong> Docker, Docker Compose, Github Actions, Kubectl</li>
+            <li class="mt-[6px] text-justify"><strong>Cloud & Other infrastructure:</strong> Heroku, Heroku CLI, AWS CLI, AWS S3, AWS ECS</li>
+            <li class="mt-[6px] text-justify"><strong>Documentation:</strong> Swagger, Architecture Decision Records, Confluence</li>
+            <li class="mt-[6px] text-justify"><strong>Software Development Principles:</strong> SOLID, DDD, CQRS, RESTful</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Web applications supporting facility services for companies worldwide in various industries like aviation, banking, cleaning, security, etc</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">04.2020 - 11.2022</span>
+          </div>
+          <p class="text-[#4a4a4a] mt-2">
+            <strong>Project within Xebia Poland</strong><br/>
+            Maintenance and support of Ruby applications - update of libraries versions, automatization of regression tests, increase of automated tests coverage.
+            Rewriting application suitable to modern cloud standards in terms of infrastructure and architecture.
+            Improvement and standardization of development process by using Docker containers.
+            Setting up Continuous Integration pipeline by utilizing tools like Semaphore and Docker.
+            Participation in setting up standards, architecture for the application, along with documentation defining those standards.
+          </p>
+          <ul class="mt-[10px] pl-5 text-[#4a4a4a]">
+            <li class="mt-[6px] text-justify"><strong>Languages & Frameworks:</strong> Ruby, Ruby on Rails, Sidekiq, HTML, CSS, Bootstrap</li>
+            <li class="mt-[6px] text-justify"><strong>Storage:</strong> MySQL, MariaDB, Redis</li>
+            <li class="mt-[6px] text-justify"><strong>Testing:</strong> RSpec, Minitest, Capybara, Selenium</li>
+            <li class="mt-[6px] text-justify"><strong>Deployment & DevOps:</strong> Docker, Docker Compose, Azure Devops, SemaphoreCI</li>
+            <li class="mt-[6px] text-justify"><strong>Documentation:</strong> Swagger, Architecture Decision Records, Confluence</li>
+            <li class="mt-[6px] text-justify"><strong>Software Development Principles:</strong> SOLID, DDD, CQRS, RESTful</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <div>
+              <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Operator portal for travelling companies supporting trip data preparation to be displayed in the mobile application by travelers/event participants</h3>
+            </div>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">09.2017 - 03.2020</span>
+          </div>
+          <p class="text-[#4a4a4a] mt-2">
+            <strong>Project within Xebia Poland</strong><br/>
+            Maintenance and development of new features in the monolithic application serving as operator portal for travelling companies.
+            Implementation of new functionalities such as sending notifications related to flights, based on integration with 3rd party service provider API interface or generating PDF documents with trip summary for marketing purposes.
+            Improvement of authentication process to be consistent with GDPR, support of infrastructure migration,
+            automatization of regression tests, migration of the functionalities to the serverless infrastructure.
+          </p>
+          <ul class="mt-[10px] pl-5 text-[#4a4a4a]">
+            <li class="mt-[6px] text-justify"><strong>Languages & Frameworks:</strong> Ruby, Ruby on Rails, Javascript, NodeJS, ExpressJS, HTML, CSS, Bootstrap, AngularJS</li>
+            <li class="mt-[6px] text-justify"><strong>Storage:</strong> PostgreSQL, Redis</li>
+            <li class="mt-[6px] text-justify"><strong>Testing:</strong> RSpec, Capybara, Jest, Jasmine, Mocha</li>
+            <li class="mt-[6px] text-justify"><strong>Infrastructure:</strong> Heroku, Heroku CLI</li>
+            <li class="mt-[6px] text-justify"><strong>AWS Cloud Services:</strong> EC2, SNS, SQS, Lambda, DynamoDB</li>
+            <li class="mt-[6px] text-justify"><strong>Documentation:</strong> Confluence</li>
+            <li class="mt-[6px] text-justify"><strong>Software Development Principles:</strong> SOLID, RESTful</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <!-- Private projects -->
+      <!-- <section class="mb-8">
+        <h2 class="text-[16pt] font-bold uppercase tracking-[1.5px] mb-[25px] pb-[10px] border-b-2 border-[#1e3a52] text-[#1e3a52]">
+          Private projects
+        </h2>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Open Source Project Example</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">2016 - PRESENT</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]"></div>
+          <p class="text-[#4a4a4a]"></p>
+          <ul class="mt-[10px] pl-5 text-[#4a4a4a]">
+            <li class="mt-[6px] text-justify"></li>
+          </ul>
+        </div>
+
+      </section> -->
+
+      <!-- Courses, Trainings & Certificates -->
+      <section class="mb-8">
+        <h2 class="text-[16pt] font-bold uppercase tracking-[1.5px] mb-[25px] pb-[10px] border-b-2 border-[#1e3a52] text-[#1e3a52]">
+          Courses, Trainings & Certificates
+        </h2>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Developer Jutra</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">04.2026</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Product-oriented thinking, architectural clarity, AI as your personal assistant and team member</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://developerjutra.pl/" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">Details</a><br/>
+            <a href="https://media.licdn.com/dms/image/v2/D4D22AQHsTOQqqm_8JQ/feedshare-shrink_1280/B4DZ2bYzseGcAM-/0/1776428465167?e=1786579200&v=beta&t=Sx98NCZC2rNaRFFxc4-bOumA_nbjyY_-GZt1Vt5EAUY" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a>
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Docker Maestro</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">10.2024</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Complex dive-in into containerization with Docker - from the basics to security, orchestration and automation</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://dockermaestro.pl/" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">Details</a><br/>
+            <a href="https://media.licdn.com/dms/image/v2/D4D22AQEBCVKqRKSzGA/feedshare-shrink_1280/feedshare-shrink_1280/0/1728835371385?e=1786579200&v=beta&t=Udzlh3MhBQ8mG-Ypi4MnpiRy78mcsTMeGLzMVma1zjs" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a>
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Distributed Systems Design Fundamentals</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">09.2021</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Modern architecture design practices for developing scalable, resilient, and reliable distributed software systems</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://www.credential.net/f09ce444-179e-429f-8456-7a16b4f67725#acc.zLDuR8jC" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a>
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Modularny Monolit</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">06.2021</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Build modular applications and deploy them as one deployment unit - without microservices</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://devmentors.io/kurs/modularny-monolit/" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">Details</a><br/>
+            <a href="https://platform.devmentors.io/certificates" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a><br/>
+            Identifier: 4cdae9adfdd1ac33c727230dd7b51e737754d1fbded56bc54973e4e2f96a82b9
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">NestJS Fundamentals</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">08.2020</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Walk-through of all the fundamentals of a NestJS application from the Creator Kamil Mysliwiec himself, and Mark Pieszak (Core Team Member)</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://learn.nestjs.com/p/fundamentals" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">Details</a>
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Mikroserwisy .NET</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">06.2020</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Complex introduction to building microservices with .NET technology</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://devmentors.io/kurs/mikroserwisy-net/" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">Details</a><br/>
+            <a href="https://platform.devmentors.io/certificates" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a><br/>
+            Identifier: cd0a4412baede1148e22b778cd5b4998f099f32d5bf9e27de3e2a092839502a5
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Advanced Distributed Systems Design using SOA & DDD</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">05.2020</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Modern architecture design practices for distributed systems with Service-Oriented Architecture and Domain-Driven Design</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://www.credential.net/3eda6b81-3dfe-48e1-88a2-fa84dc6a4402#acc.a1qbHh6U" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a>
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Introduction to Redis Data Structures</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">02.2020</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Introduction to the core data structures in Redis and how to use them effectively</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://university.redislabs.com/certificates/user/39870/course/course-v1:redislabs+RU101+2020_01" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a>
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="flex justify-between items-start mb-2">
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c]">Redis for JavaScript Developers</h3>
+            <span class="text-[10pt] text-[#666] whitespace-nowrap text-right">02.2020</span>
+          </div>
+          <div class="text-[11pt] text-[#666] mb-[10px]">Introduction to using Redis effectively in JavaScript applications</div>
+          <p class="text-[#4a4a4a]">
+            <a href="https://university.redislabs.com/certificates/user/39870/course/course-v1:redislabs+RU102JS+2020_01" target="_blank" rel="noopener noreferrer" class="text-[#1e3a52] hover:underline">View Certificate</a>
+          </p>
+        </div>
+
+      </section>
+
+      <!-- References
+      <section class="mb-8">
+        <h2 class="text-[16pt] font-bold uppercase tracking-[1.5px] mb-[25px] pb-[10px] border-b-2 border-[#1e3a52] text-[#1e3a52]">
+          Reference
+        </h2>
+
+        <div class="grid grid-cols-2 gap-[30px]">
+
+          <div>
+            <h3 class="text-[12pt] font-bold text-[#2c2c2c] mb-[5px]">Joey Flores</h3>
+            <div class="text-[10pt] text-[#666] mb-2">Co-founder and CEO of Earbits, Inc.</div>
+            <p class="text-[9pt] text-[#666]">
+              References content example
+            </p>
+          </div>
+
+        </div>
+      </section> -->
+
+    </main>
+  </div>
+
+</body>
+</html>
